@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        style="@style/TabLayout">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tableItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/tab_icon_selector"
+            android:text="标签一" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tableItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/tab_icon_selector_two"
+            android:text="标签二" />
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:id="@+id/tableItem3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="标签三" />-->
+    </com.google.android.material.tabs.TabLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">立木测量仪</string>
+    
+    <string name="tree">&#xe600;</string>
+    <string name="dis">&#xe604;</string>
+    <string name="target">&#xe851;</string>
+    <string name="setting">&#xe657;</string>
+    <string name="level_1">&#xe637;</string>
+    <string name="level_2">&#xe602;</string>
+    <string name="ruler_1">&#xe634;</string>
+    <string name="ruler_2">&#xe773;</string>
+    <string name="ruler_3">&#xe606;</string>
+    <string name="ruler_4">&#xe605;</string>
+    <string name="ruler_5">&#xe60d;</string>
+    <string name="camera">&#xe6b4;</string>
+    <string name="edit">&#xe636;</string>
+</resources>

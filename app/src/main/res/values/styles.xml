@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="funcStyle">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="mytheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:buttonTint">#ff0000</item>
+        <item name="backgroundTint">#0D0925</item>
+        <item name="android:statusBarColor">#0D0925</item>
+        <item name="buttonStyle">@style/button</item>
+    </style>
+
+    <style name="TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor" >#F8B72F</item>
+        <item name="tabTextColor">@drawable/tab_selector</item>
+        <item name="android:background">#46425C</item>
+        <item name="tabIconTint">@color/tab_icon_selector</item>
+        <item name="tabIndicatorGravity">top</item>
+    </style>
+
+    <style name="button" parent="@style/Widget.MaterialComponents.Button">
+        <item name="buttonTint">@color/activityBackground</item>
+        <item name="android:background">@drawable/shape_background_guide_button</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+</resources>

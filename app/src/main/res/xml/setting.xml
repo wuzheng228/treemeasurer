@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:key="calibration_category"
+        app:title="相机标定参数设置"
+        android:icon="@drawable/ic_icon_tip">
+        <EditTextPreference
+            app:key="board_short"
+            app:title="标定板高度"
+            app:defaultValue="5"
+            android:summary="请输入标定板短边格数"
+            app:icon="@drawable/ic_round_1"/>
+        <EditTextPreference
+            app:key="board_long"
+            app:title="标定板宽度"
+            app:defaultValue="7"
+            android:summary="请输入标定板长边格数"
+            app:icon="@drawable/ic_round_2"/>
+        <EditTextPreference
+            app:icon="@drawable/ic_round_3"
+            app:key="board_box_size"
+            app:title="标定板黑格宽度"
+            app:defaultValue="19"
+            android:summary="请输入标定板黑格宽度"/>
+        <Preference
+            app:icon="@drawable/ic_round_4"
+            app:key="calib_activity"
+            app:title="相机重新标定">
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="measure_category"
+        app:title="测量参数设置"
+        android:icon="@drawable/ic_icon_tip">
+        <EditTextPreference
+            app:icon="@drawable/ic_round_1"
+            android:dialogTitle="请输入高度，单位cm"
+            app:key="height"
+            app:title="测量高度"
+            app:defaultValue="176"
+            app:summary="设置相机距离地面的高度(身高)"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

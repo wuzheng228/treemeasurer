@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.treemeasurer.measurer">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/mytheme">
+        <activity android:name=".camera.CameraActivity">
+        </activity>
+        <activity android:name=".setting.SettingActivity">
+
+        </activity>
+        <activity android:name=".tasks.MainActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".calibration.CalibActivity">
+
+        </activity>
+        <activity android:name=".Result.DbhResultActivity">
+
+        </activity>
+        <activity android:name=".Result.HeightResultActivity">
+
+        </activity>
+        <activity android:name=".guide.MeasureDbhGuideActivity">
+
+        </activity>
+        <activity android:name=".guide.MeasureHeightGuideActivity">
+        </activity>
+        <activity android:name=".guide.CalibGuideActivity">
+        </activity>
+    </application>
+
+</manifest>
