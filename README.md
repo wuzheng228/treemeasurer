@@ -26,7 +26,7 @@ treemeasurer立木测量仪是一款立木测量app，能够实现立木胸径�
   <img src="https://github.com/wuzheng228/treemeasurer/blob/master/images/%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A_7.jpg" width = "200" alt="主界面1" align=center />
   <img src="https://github.com/wuzheng228/treemeasurer/blob/master/images/%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A_6.jpg" width = "200" alt="主界面1" align=center />
 </div>
-<div/>
+
 ##### 立木胸径测量
 
 点击主界面的立木胸径测量模块，第一次使用按照提示设置参数，在3米左右拍摄立木图像，然后测量深度后，等待服务器将处理结果返回
