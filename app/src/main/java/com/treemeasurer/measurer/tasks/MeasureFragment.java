@@ -19,11 +19,11 @@ import androidx.preference.PreferenceManager;
 
 import com.treemeasurer.measurer.BaseFragment;
 import com.treemeasurer.measurer.R;
-import com.treemeasurer.measurer.Result.HeightResultActivity;
+import com.treemeasurer.measurer.result.HeightResultActivity;
 import com.treemeasurer.measurer.calibration.CalibActivity;
 import com.treemeasurer.measurer.camera.CameraActivity;
 import com.treemeasurer.measurer.camera.CameraCode;
-import com.treemeasurer.measurer.Result.DbhResultActivity;
+import com.treemeasurer.measurer.result.DbhResultActivity;
 import com.treemeasurer.measurer.entity.HeightResult;
 import com.treemeasurer.measurer.guide.CalibGuideActivity;
 import com.treemeasurer.measurer.guide.MeasureDbhGuideActivity;

@@ -1,4 +1,4 @@
-package com.treemeasurer.measurer.Result;
+package com.treemeasurer.measurer.result;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -43,7 +43,7 @@ import okhttp3.Response;
 public class DbhResultActivity extends AppCompatActivity {
     private final static String TAG = "DbhResultActivity";
     private final static MediaType MEDIA_TYPE_JPG = MediaType.parse("image/jpeg");
-    private final static String HOST = "http://www.wzfry.com";
+    private final static String HOST = "http://localhost";
     private final static int FINISH = 1;
     private final static int ERROR = -1;
     private final OkHttpClient client = new OkHttpClient();

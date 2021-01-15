@@ -1,8 +1,6 @@
-package com.treemeasurer.measurer.Result;
+package com.treemeasurer.measurer.result;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;

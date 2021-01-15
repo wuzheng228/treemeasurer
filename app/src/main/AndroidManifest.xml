@@ -28,10 +28,10 @@
         <activity android:name=".calibration.CalibActivity">
 
         </activity>
-        <activity android:name=".Result.DbhResultActivity">
+        <activity android:name=".result.DbhResultActivity">
 
         </activity>
-        <activity android:name=".Result.HeightResultActivity">
+        <activity android:name=".result.HeightResultActivity">
 
         </activity>
         <activity android:name=".guide.MeasureDbhGuideActivity">
