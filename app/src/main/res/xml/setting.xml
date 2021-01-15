@@ -8,20 +8,20 @@
         <EditTextPreference
             app:key="board_short"
             app:title="标定板高度"
-            app:defaultValue="5"
+            app:defaultValue="8"
             android:summary="请输入标定板短边格数"
             app:icon="@drawable/ic_round_1"/>
         <EditTextPreference
             app:key="board_long"
             app:title="标定板宽度"
-            app:defaultValue="7"
+            app:defaultValue="8"
             android:summary="请输入标定板长边格数"
             app:icon="@drawable/ic_round_2"/>
         <EditTextPreference
             app:icon="@drawable/ic_round_3"
             app:key="board_box_size"
             app:title="标定板黑格宽度"
-            app:defaultValue="19"
+            app:defaultValue="25"
             android:summary="请输入标定板黑格宽度"/>
         <Preference
             app:icon="@drawable/ic_round_4"

@@ -97,7 +97,7 @@ public class GuideCalibFragment extends Fragment {
     private void stepFour() {
         textUnit.setText("mm");
         editLayout.setVisibility(View.VISIBLE);
-        editTextHeight.setText(pref.getString("board_box_size","19"));
+        editTextHeight.setText(pref.getString("board_box_size","25"));
         imageViewGuide.setImageResource(R.drawable.calib_guide_3);
         btnPre.setVisibility(View.VISIBLE);
         btnNext.setVisibility(View.VISIBLE);
